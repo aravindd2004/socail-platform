@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #080808;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height:auto;
+    overflow-x: hidden;
+}
+
+.y{
+    background-image: linear-gradient(to right ,rgb(221, 191, 191),rgb(206, 197, 197));
+    border: 1px solid gray;
+    padding: 20px;
+    width: 1000px;
+    height: 100vh;
+    padding-left: 25%;
+}
+
+.profile {
+    background-image: linear-gradient(to right ,rgb(221, 191, 191),rgb(206, 197, 197));;
+    color: rgb(31, 136, 228);
+    border: 1px solid #686b68;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 300px;
+}
+.profile img {
+    width: 120px;
+    height: 120px;
+    border-radius: 60%;
+    margin-bottom: 20px;
+}
+h1 {
+    color: #262626;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+p {
+    color: #666;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+.button {
+    background-color: #3897f0;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+.button:hover {
+    background-color: #357ae8;
+}
+.profile-info {
+    text-align: left;
+    margin-bottom: 20px;
+}
+.profile-info label {
+    font-weight: bold;
+    color: #262626;
+}
+.profile-info p {
+    margin: 5px 0;
+    color: #666;
+}
+.edit-profile {
+    padding-top:10px;
+    font-size: 0.8rem;
+    color: #003569;
+    text-decoration: none;
+}
+.container {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 60px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 400px;
+    height: 50vh;
+    margin-right: 40%;
+}
+h1 {
+    color: #262626;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.setting {
+    text-align: left;
+    margin-bottom: 20px;
+}
+.setting label {
+    font-weight: bold;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+}
+.setting input[type="text"],
+.setting input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 1rem;
+}
+.setting .button {
+    background-color: #3897f0;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 3px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.setting .button:hover {
+    background-color: #357ae8;
+}
+.logout-link {
+    display: block;
+    margin-top: 20px;
+    color: #003569;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
